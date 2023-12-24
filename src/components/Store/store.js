@@ -5,4 +5,5 @@ const store = configureStore({
     cart: cartReducer,
   },
 })
+console.log("store", store.getState())
 export default store
